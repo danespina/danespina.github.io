@@ -2645,8 +2645,17 @@ input, select, textarea {
 		justify-content: center;
 	}
 
+	.about-left {
+		width: 66%;
+	}
+
 	.about-right ul li {
 		margin-top: 0;
+		list-style: none;
+	}
+
+	.about-right li {
+		display: flex;
 	}
 
 	.skill-div {
