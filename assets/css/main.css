@@ -2640,6 +2640,15 @@ input, select, textarea {
 
 	.about-div {
 		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+		max-width: 960px;
+	}
+
+	.about-content {
+		display: flex;
 		margin: 0 auto;
 		align-items: center;
 		justify-content: center;
@@ -2649,13 +2658,43 @@ input, select, textarea {
 		width: 66%;
 	}
 
-	.about-right ul li {
-		margin-top: 0;
-		list-style: none;
+	.about-right {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
 	}
 
-	.about-right li {
+	.top-content {
 		display: flex;
+		margin: 0 auto;
+		justify-content: center;
+		position: relative;
+	}
+
+	#header ul li {
+		margin-top: 0;
+		list-style: none;
+		display: flex;
+	}
+
+	.contact-list {
+		display: flex;
+		padding: 0;
+		justify-content: center;
+	}
+
+	.contact-list li {
+		padding: 15px;
+	}
+
+	.contact-list a {
+		border-bottom: none;
+		color: #fff;
+	}
+
+	.contact-list a:hover {
+		color: #35b88f;
 	}
 
 	.skill-div {
@@ -2663,7 +2702,7 @@ input, select, textarea {
 		flex-direction: column;
 		align-items: center;
 		justify-content: flex-start;
-		min-height: 107px;
+		min-height: 120px;
 	}
 
 	.skill-div:hover span {
@@ -2673,4 +2712,10 @@ input, select, textarea {
 
 	.skill-div span {
 		display: none;
+	}
+
+	.personal-pic {
+		width: 130px;
+		height: 130px;
+		border-radius: 50%;
 	}
