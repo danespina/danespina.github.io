@@ -1871,7 +1871,8 @@ input, select, textarea {
 			}
 
 				.box.style1.right .image img {
-					right: 0;
+					left: 0;
+					width: 100%;
 				}
 
 			.box.style1.right .inner {
@@ -2628,4 +2629,39 @@ input, select, textarea {
 				opacity: 0.5;
 			}
 
+	}
+
+	.skill-icon {
+		max-width: 70px;
+		max-height: 70px;
+		padding: 5px;
+		margin: 0 auto;
+	}
+
+	.about-div {
+		display: flex;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-right ul li {
+		margin-top: 0;
+	}
+
+	.skill-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		min-height: 107px;
+	}
+
+	.skill-div:hover span {
+		color: black;
+		display: flex;
+	}
+
+	.skill-div span {
+		display: none;
 	}
