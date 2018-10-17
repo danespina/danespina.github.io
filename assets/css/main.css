@@ -1859,7 +1859,7 @@ input, select, textarea {
 					position: absolute;
 					top: 0;
 					height: 100%;
-					width: auto;
+					width: 100%;
 				}
 
 			.box.style1 .inner > :last-child {
@@ -2715,7 +2715,6 @@ input, select, textarea {
 	}
 
 	.personal-pic {
-		width: 130px;
 		height: 130px;
 		border-radius: 50%;
 	}
